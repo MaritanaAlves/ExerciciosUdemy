@@ -7,16 +7,13 @@ namespace _06_Exercicio
     {
         static void Main(string[] args)
         {
-            int numerodofuncionario;
-            double horastrabalhadas, valorhora, salario;
+            int numeroFuncionario = int.Parse(Console.ReadLine());
+            double horasTrabalhadas = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            double valorHora = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            double salario = horasTrabalhadas * valorHora;
 
-            numerodofuncionario = int.Parse(Console.ReadLine());
-            horastrabalhadas = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-            valorhora = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-            salario = horastrabalhadas * valorhora;
-
-            Console.WriteLine("O número do funcionário é: " + numerodofuncionario);
-            Console.WriteLine("O salário do funcionário é: R$ " + salario.ToString("F2", CultureInfo.InvariantCulture));
+            Console.WriteLine($"O número do funcionário é: {numeroFuncionario}");
+            Console.WriteLine($"O salário do funcionário é: R$ {salario.ToString("F2", CultureInfo.InvariantCulture)}");
             Console.ReadKey();
         }
     }

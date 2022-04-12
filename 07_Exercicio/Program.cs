@@ -7,28 +7,24 @@ namespace _07_Exercicio
     {
         static void Main(string[] args)
         {
-            double valor1, valor2, total;
-
             string[] vet1 = Console.ReadLine().Split(' ');
             int codigo1 = int.Parse(vet1[0]);
-            int numerodepecas1 = int.Parse(vet1[1]);
-            double valordapeca1 = double.Parse(vet1[2], CultureInfo.InvariantCulture);
+            int numeroPecas1 = int.Parse(vet1[1]);
+            double valorPeca1 = double.Parse(vet1[2], CultureInfo.InvariantCulture);
 
-            valor1 = numerodepecas1 * valordapeca1;
+            double valor1 = numeroPecas1 * valorPeca1;
 
             string[] vet2 = Console.ReadLine().Split(' ');
             int codigo2 = int.Parse(vet1[0]);
-            int numerodepecas2 = int.Parse(vet2[1]);
-            double valordapeca2 = double.Parse(vet2[2], CultureInfo.InvariantCulture);
+            int numeroPecas2 = int.Parse(vet2[1]);
+            double valorPeca2 = double.Parse(vet2[2], CultureInfo.InvariantCulture);
 
-            valor2 = numerodepecas2 * valordapeca2;
+            double valor2 = numeroPecas2 * valorPeca2;
 
-            total = valor1 + valor2;
+            double total = valor1 + valor2;
 
             Console.WriteLine("Valor a pagar: R$ " + total.ToString ("F2", CultureInfo.InvariantCulture));
             Console.ReadKey();
-
-
         }
     }
 }

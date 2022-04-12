@@ -7,13 +7,14 @@ namespace _04_Exercicio
     {
         static void Main(string[] args)
         {
-            double raio, area;
-            double pi = 3.14159;
+            const double PI = 3.14159;
 
-            raio = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-            area = pi * (raio * raio);
+            Console.Write("Digite o raio: ");
+            double raio = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            double raioAoQuadrado = Math.Pow(raio, 2);
+            double area = PI * raioAoQuadrado;
 
-            Console.WriteLine("A área é igual a: " + area.ToString("F4", CultureInfo.InvariantCulture));
+            Console.WriteLine($"A área é igual a: {area.ToString("F4", CultureInfo.InvariantCulture)}");
             Console.ReadKey();
         }
     }
