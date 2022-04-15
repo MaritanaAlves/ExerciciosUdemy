@@ -17,6 +17,7 @@ namespace _09_Exercicio
             {
                 Console.WriteLine("Número ímpar");
             }
+
             Console.ReadKey();
         }
     }
