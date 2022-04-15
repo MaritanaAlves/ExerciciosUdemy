@@ -25,7 +25,7 @@ namespace _10_Exercicio
             }
             else
             {
-                Console.WriteLine(pessoa2.nome + " é pedófila");
+                Console.WriteLine(pessoa2.nome + " é mais velho.");
             }
 
             Console.ReadKey();
