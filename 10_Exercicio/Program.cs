@@ -10,22 +10,22 @@ namespace _10_Exercicio
             Pessoa pessoa2 = new Pessoa();
 
             Console.Write("Didite o nome da primeira pessoa: ");
-            pessoa1.nome = Console.ReadLine();
+            pessoa1.Nome = Console.ReadLine();
             Console.Write("Digite a idade da primeira pessoa: ");
-            pessoa1.idade = int.Parse(Console.ReadLine());
+            pessoa1.Idade = int.Parse(Console.ReadLine());
 
             Console.Write("Didite o nome da segunda pessoa pessoa: ");
-            pessoa2.nome = Console.ReadLine();
+            pessoa2.Nome = Console.ReadLine();
             Console.Write("Digite a idade da segunda pessoa: ");
-            pessoa2.idade = int.Parse(Console.ReadLine());
+            pessoa2.Idade = int.Parse(Console.ReadLine());
 
-            if (pessoa1.idade > pessoa2.idade)
+            if (pessoa1.Idade > pessoa2.Idade)
             {
-                Console.WriteLine(pessoa1.nome + " é mais velho.");
+                Console.WriteLine(pessoa1.Nome + " é mais velho.");
             }
             else
             {
-                Console.WriteLine(pessoa2.nome + " é mais velho.");
+                Console.WriteLine(pessoa2.Nome + " é mais velho.");
             }
 
             Console.ReadKey();

@@ -11,15 +11,16 @@ namespace _11_Exercicio
             Funcionarios funcionario2 = new Funcionarios();
 
             Console.Write("Digite o nome do primeiro funcionário: ");
-            funcionario1.nome = Console.ReadLine();
+            funcionario1.Nome = Console.ReadLine();
             Console.Write("Digite o salário do primeiro funcionário: ");
-            funcionario1.salario = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-            Console.Write("Digite o nome do segundo funcionário: ");
-            funcionario2.nome = Console.ReadLine();
-            Console.Write("Digite o salário do segundo funcionário: ");
-            funcionario2.salario = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            funcionario1.Salario = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
-            double media = (funcionario1.salario + funcionario2.salario) / 2;
+            Console.Write("Digite o nome do segundo funcionário: ");
+            funcionario2.Nome = Console.ReadLine();
+            Console.Write("Digite o salário do segundo funcionário: ");
+            funcionario2.Salario = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+
+            double media = (funcionario1.Salario + funcionario2.Salario) / 2;
 
             Console.WriteLine($"O salário médio dos funcionários é: R$ {media}");
         }

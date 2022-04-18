@@ -6,7 +6,7 @@ namespace _11_Exercicio
 {
     internal class Funcionarios
     {
-        public string nome;
-        public double salario;
+        public string Nome;
+        public double Salario;
     }
 }
