@@ -15,9 +15,9 @@ namespace _13.Exercicio
             Console.Write("Altura: ");
             r.Altura = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
-            Console.Write("AREA = " + r.Area().ToString("F2", CultureInfo.InvariantCulture));
-            Console.Write("Perímetro = " + r.Perimetro().ToString("F2", CultureInfo.InvariantCulture));
-            Console.Write("Diagonal = " + r.Diagonal().ToString("F2", CultureInfo.InvariantCulture));
+            Console.WriteLine("Área = " + r.Area().ToString("F2", CultureInfo.InvariantCulture));
+            Console.WriteLine("Perímetro = " + r.Perimetro().ToString("F2", CultureInfo.InvariantCulture));
+            Console.WriteLine("Diagonal = " + r.Diagonal().ToString("F2", CultureInfo.InvariantCulture));
 
             Console.ReadKey();
         } 
