@@ -31,15 +31,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "13.Exercicio", "13.Exercici
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "14_Exercicio", "14_Exercicio\14_Exercicio.csproj", "{AB217411-8E52-4BB1-9AC7-264C7939077D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15_Exercicio_PrimeiroModo", "15_Exercicio\15_Exercicio_PrimeiroModo.csproj", "{2AD1346A-FC1B-49CF-926B-3B69F0D8FE36}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "15_Exercicio_PrimeiroModo", "15_Exercicio\15_Exercicio_PrimeiroModo.csproj", "{2AD1346A-FC1B-49CF-926B-3B69F0D8FE36}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15_Exercicio_SegundoModo", "15_Exercicio_SegundoModo\15_Exercicio_SegundoModo.csproj", "{4A2C16C9-8497-4F06-929E-7E4E725393A1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "15_Exercicio_SegundoModo", "15_Exercicio_SegundoModo\15_Exercicio_SegundoModo.csproj", "{4A2C16C9-8497-4F06-929E-7E4E725393A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15_Exercicio_TerceiroModo", "15_Exercicio_TerceiroModo\15_Exercicio_TerceiroModo.csproj", "{45B16F0F-18DD-4CEB-9A95-09FAC7FE2492}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "15_Exercicio_TerceiroModo", "15_Exercicio_TerceiroModo\15_Exercicio_TerceiroModo.csproj", "{45B16F0F-18DD-4CEB-9A95-09FAC7FE2492}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16_Exercicio", "16_Exercicio\16_Exercicio.csproj", "{184F5B94-FB2C-43B7-A804-49E972556EFA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "16_Exercicio", "16_Exercicio\16_Exercicio.csproj", "{184F5B94-FB2C-43B7-A804-49E972556EFA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17_Exercicio", "17_Exercicio\17_Exercicio.csproj", "{32FAFA7F-9B77-4484-A22E-627CF28BA60E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "17_Exercicio", "17_Exercicio\17_Exercicio.csproj", "{32FAFA7F-9B77-4484-A22E-627CF28BA60E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18_Exercicio", "18_Exercicio\18_Exercicio.csproj", "{5C708223-C91A-4AD7-8938-3A1069933048}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -123,6 +125,10 @@ Global
 		{32FAFA7F-9B77-4484-A22E-627CF28BA60E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{32FAFA7F-9B77-4484-A22E-627CF28BA60E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{32FAFA7F-9B77-4484-A22E-627CF28BA60E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C708223-C91A-4AD7-8938-3A1069933048}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C708223-C91A-4AD7-8938-3A1069933048}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C708223-C91A-4AD7-8938-3A1069933048}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C708223-C91A-4AD7-8938-3A1069933048}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
