@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Globalization;
 
 namespace _22_Exercicio
 {
@@ -8,7 +9,7 @@ namespace _22_Exercicio
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public double Salary { get; set; }
+        public double Salary { get; private set; }
 
         public Employee (int id, string name, double salary)
         {
@@ -17,9 +18,18 @@ namespace _22_Exercicio
             Salary = salary;
         }
 
-        public void increasetSalary(double percentage)
+        public void RaiseSalary(double percentage)
         {
-            return Salary += x / 100;
+            double aumento = Salary * percentage / 100;
+        }
+
+        public override string ToString()
+        {
+            return Id
+                + ", "
+                + Name
+                + ", "
+                + Salary.ToString("F2", CultureInfo.InvariantCulture);
         }
 
     }
