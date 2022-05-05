@@ -28,7 +28,7 @@ namespace _25_Exercicio_Resolvido
             for (int i = 1; i <= n; i++)
             {
                 Console.WriteLine($"Enter #{i} contract data: ");
-                Console.Read("Date (DD/MM/YYYY): ");
+                Console.Write("Date (DD/MM/YYYY): ");
                 DateTime date = DateTime.Parse(Console.ReadLine());
                 Console.Write("Value por hour: ");
                 double valuePerHour = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
