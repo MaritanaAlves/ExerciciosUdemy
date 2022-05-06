@@ -57,7 +57,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "24_Exercicio_Enumeracoes", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "25_Exercicio_Resolvido", "25_Exercicio_Resolvido\25_Exercicio_Resolvido.csproj", "{77EB2564-1930-4392-BDA4-6F18407AACDC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "26_Exercicio_EnumeracoesEComposicoes", "26_Exercicio_EnumeracoesEComposicoes\26_Exercicio_EnumeracoesEComposicoes.csproj", "{79789F91-C33C-4052-9CF2-427B7967BEEB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "26_Exercicio_Composicoes", "26_Exercicio_EnumeracoesEComposicoes\26_Exercicio_Composicoes.csproj", "{79789F91-C33C-4052-9CF2-427B7967BEEB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
