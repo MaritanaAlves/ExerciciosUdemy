@@ -14,7 +14,7 @@ namespace _28_Exercicio_HerancaEPolimorfismo
             Console.Write("Enter the number of employee: ");
             int n = int.Parse(Console.ReadLine());
 
-            for (int i = 0; i <= n; i++)
+            for (int i = 1; i <= n; i++)
             {
                 Console.WriteLine($"Employee #{i} data: ");
                 Console.Write("Outsourced (y/n)? ");
