@@ -10,7 +10,7 @@ namespace _35_Exercicio_Excecoes
         static void Main(string[] args)
         {
             Console.WriteLine("Enter account data: ");
-            Console.Write("number: ");
+            Console.Write("Number: ");
             int number = int.Parse(Console.ReadLine());
             Console.Write("Holder: ");
             string holder = Console.ReadLine();
