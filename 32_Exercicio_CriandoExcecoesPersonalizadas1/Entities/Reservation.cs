@@ -25,6 +25,12 @@ namespace _32_Exercicio_CriandoExcecoesPersonalizadas1.Entities
             return (int)duration.TotalDays;
         }
 
+        public void UpdateDates(DateTime checkIn, DateTime checkOut)
+        {
+            CheckIn = checkIn;
+            CheckOut = checkOut;
+        }
+
         public override string ToString()
         {
             return "Room"

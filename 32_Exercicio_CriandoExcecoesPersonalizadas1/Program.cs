@@ -31,6 +31,21 @@ namespace _32_Exercicio_CriandoExcecoesPersonalizadas1
                 Console.Write("Check-out date (dd/MM/yyyy): ");
                 checkOut = DateTime.Parse(Console.ReadLine());
 
+                DateTime now = DateTime.Now;
+                if (checkIn < now || checkOut < now)
+                {
+                    Console.WriteLine("Error in reservation: Raservation dates for update must be future dates");
+                }
+                else if (checkOut <= checkIn)
+                {
+                    Console.WriteLine("Error in reservation: Check-out dare must be after check-in date");
+                }
+                else
+                {
+                    reservation.UpdateDates(checkIn, checkOut);
+                    Console.WriteLine("Reservation: " + reservation);
+                }
+
             }
 
             
