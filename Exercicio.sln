@@ -71,7 +71,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "31_Exercicio_MetodosAbstrat
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "32_Exercicio_CriandoExcecoesPersonalizadas1", "32_Exercicio_CriandoExcecoesPersonalizadas1\32_Exercicio_CriandoExcecoesPersonalizadas1.csproj", "{772F32BC-F3B1-411A-BDBA-0A65D9CA1563}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "33_Exercicio_CriandoExcecoesPersonalizadas2", "33_Exercicio_CriandoExcecoesPersonalizadas2\33_Exercicio_CriandoExcecoesPersonalizadas2.csproj", "{21AF83C7-176F-4EB4-AF43-33B12E01CD81}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "33_Exercicio_CriandoExcecoesPersonalizadas2", "33_Exercicio_CriandoExcecoesPersonalizadas2\33_Exercicio_CriandoExcecoesPersonalizadas2.csproj", "{21AF83C7-176F-4EB4-AF43-33B12E01CD81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "34_Exercicio_CriandoExcecoesPersonalizadas3", "34_Exercicio_CriandoExcecoesPersonalizadas3\34_Exercicio_CriandoExcecoesPersonalizadas3.csproj", "{DCBE8602-3E49-480E-A2CF-9FAA8DF4140C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -219,6 +221,10 @@ Global
 		{21AF83C7-176F-4EB4-AF43-33B12E01CD81}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{21AF83C7-176F-4EB4-AF43-33B12E01CD81}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{21AF83C7-176F-4EB4-AF43-33B12E01CD81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCBE8602-3E49-480E-A2CF-9FAA8DF4140C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCBE8602-3E49-480E-A2CF-9FAA8DF4140C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCBE8602-3E49-480E-A2CF-9FAA8DF4140C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCBE8602-3E49-480E-A2CF-9FAA8DF4140C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
