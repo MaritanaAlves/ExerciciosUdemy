@@ -83,6 +83,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "37_Exercicio_Interfaces_Sol
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "38_Exercicio_Interfaces_SolucaoComInterface", "38_Exercicio_Interfaces_SolucaoComInterface\38_Exercicio_Interfaces_SolucaoComInterface.csproj", "{BA186661-5842-4A3B-AF7D-7C9974B2632D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "39_Exercicio_Interface", "39_Exercicio_Interface\39_Exercicio_Interface.csproj", "{1A0069A1-F70E-4C2A-A03E-E5C9CA8CA011}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -249,6 +251,10 @@ Global
 		{BA186661-5842-4A3B-AF7D-7C9974B2632D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA186661-5842-4A3B-AF7D-7C9974B2632D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA186661-5842-4A3B-AF7D-7C9974B2632D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A0069A1-F70E-4C2A-A03E-E5C9CA8CA011}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A0069A1-F70E-4C2A-A03E-E5C9CA8CA011}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A0069A1-F70E-4C2A-A03E-E5C9CA8CA011}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A0069A1-F70E-4C2A-A03E-E5C9CA8CA011}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
