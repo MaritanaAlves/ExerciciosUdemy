@@ -6,7 +6,10 @@ namespace _39_Exercicio_Interface
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Enter contract date");
+            Console.Write("Number: ");
+            int number = int.Parse(Console.ReadLine());
+
         }
     }
 }
