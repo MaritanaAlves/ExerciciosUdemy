@@ -11,6 +11,8 @@ namespace _41_Exercicio_GetHashCodeEEquals
             Client b = new Client { Name = "João", Email = "joao@gmail.com" };
 
             Console.WriteLine(a.Equals(b));
+            Console.WriteLine(a.GetHashCode());
+            Console.WriteLine(b.GetHashCode());
         }
     }
 }
