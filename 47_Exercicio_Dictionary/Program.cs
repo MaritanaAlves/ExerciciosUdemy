@@ -17,7 +17,6 @@ namespace _47_Exercicio_Dictionary
                     Dictionary<string, int> dictionary = new Dictionary<string, int>();
 
                     while (!sr.EndOfStream) {
-
                         string[] votingRecord = sr.ReadLine().Split(',');
                         string candidate = votingRecord[0];
                         int votes = int.Parse(votingRecord[1]);
